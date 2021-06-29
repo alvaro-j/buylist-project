@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+:root {
+    --red: #dc143c;
+    --green: #90ee90;
+    --pink: #ffcad4;
+}
+
+/*================= GERAL =========================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(pexels-oleg-magni-890507.jpg);
+    background-size: cover;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*============= MENU ==============================================*/
+
+header {
+    display: flex;
+    color: white;
+    background-color: var(--red);
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 8px;
+}
+
+header a:hover {
+    opacity: 0.8;
+}
+
+span {
+    color: var(--green);
+}
+
+nav {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/*==================== PRINCIPAL ================================*/
+
+section {
+    text-align: center;
+    padding: 60px 5px;
+    background-color: white;
+    margin: 10px 60px;
+    border-radius: 7px;
+}
+
+section h1 {
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+
+input {
+    display: block;
+    margin: auto;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/*============= BOTÕES =====================================*/
+
+#btn {
+    padding: 50px 0px 30px;
+}
+
+#btn button{
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    border-width: 0px;
+    text-shadow: 1px 1px 3px black;
+}
+
+#add {
+    background-color: var(--green);
+    transition: padding 0.5s;
+}
+
+#remover {
+    background-color: var(--red);
+    transition: padding 0.5s;
+}
+
+#add:active, #remover:active {
+    padding: 5px 10px;
+}
+/*============== LISTA =====================================*/
+select {
+    width: 300px;
+    font-size: 1.1rem;
+}
+/*================== RODAPÉ =================================*/
+footer {
+    text-align: center;
+    background-color: var(--pink);
+    padding: 1px;
+}
+
+/*=========== DISPOSITIVOS DIFERENTES ========================================*/
+
+@media (max-width: 800px) {
+    #btn button{
+        padding: 20px 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    select {
+        width: 200px;
+        height: 180px;
+    }
+
+    section {
+        margin: 10px 20px;
+        padding: 30px 5px;
+    }
+
+    #btn {
+        padding: 25px 0px;
+    }
+
+    #btn button {
+        margin-bottom: 10px;
+    }
+}
