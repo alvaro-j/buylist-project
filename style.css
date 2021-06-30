@@ -89,12 +89,12 @@ input {
 
 #add {
     background-color: var(--green);
-    transition: padding 0.5s;
+    transition: padding 0.1s;
 }
 
 #remover {
     background-color: var(--red);
-    transition: padding 0.5s;
+    transition: padding 0.1s;
 }
 
 #add:active, #remover:active {
@@ -137,5 +137,9 @@ footer {
 
     #btn button {
         margin-bottom: 10px;
+    }
+
+    #input {
+        width: 220px;
     }
 }
