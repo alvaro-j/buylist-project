@@ -30,11 +30,11 @@ Buy list with add and remove function. Made with HTML, CSS and JavaScript.
 
 ### What I learned📝
 
-- Use <b>placeholder</b> attribute to specifies a short hint that describes the expected value of the input field.
+- Use <b>placeholder attribute</b> to specifies a short hint that describes the expected value of the input field.
 ```html
 <input type="text" id="input" placeholder="Produto">
 ```
-- Use <b>CSS @media rule</b> to set the style to different devices.
+- Use the <b>CSS @media rule</b> to set the style to different devices.
 ```css
 var hor = String(new Date().getHours())
 var min = String(new Date().getMinutes())
