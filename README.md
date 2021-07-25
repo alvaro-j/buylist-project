@@ -36,9 +36,11 @@ Buy list with add and remove function. Made with HTML, CSS and JavaScript.
 ```
 - Use the <b>CSS @media rule</b> to set the style to different devices.
 ```css
-var hor = String(new Date().getHours())
-var min = String(new Date().getMinutes())
-var sec = String(new Date().getSeconds())
+@media (max-width: 800px) {
+    #btn button{
+        padding: 20px 40px;
+    }
+}
 ```
 ### Useful resources
 
