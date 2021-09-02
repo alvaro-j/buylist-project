@@ -30,7 +30,7 @@ Buy list with add and remove function. Made with HTML, CSS and JavaScript.
 
 ### What I learned📝
 
-- Use <b>placeholder attribute</b> to specifies a short hint that describes the expected value of the input field.
+- Use <strong>placeholder attribute</strong> to specifies a short hint that describes the expected value of the input field.
 ```html
 <input type="text" id="input" placeholder="Produto">
 ```
