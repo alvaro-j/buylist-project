@@ -34,7 +34,7 @@ Buy list with add and remove function. Made with HTML, CSS and JavaScript.
 ```html
 <input type="text" id="input" placeholder="Produto">
 ```
-- Use the <b>CSS @media rule</b> to set the style to different devices.
+- Use the <strong>CSS @media rule</strong> to set the style to different devices.
 ```css
 @media (max-width: 800px) {
     #btn button{
