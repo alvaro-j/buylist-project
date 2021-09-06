@@ -6,16 +6,16 @@ Buy list with add and remove function. Made with HTML, CSS and JavaScript.
 ## Table of contents✒️
 
 - [Overview](#overview)🎯
-  - [Links](#links)
+  - [Links](#links)🔗
 - [My process](#my-process)🧩
-  - [Built with](#built-with)
+  - [Built with](#built-with)🔨
   - [What I learned](#what-i-learned)📝
   - [Useful resources](#useful-resources)
 - [Author](#author)🙋🏻
 
 ## Overview🎯
 
-### Links
+### Links🔗
 
 - Live Site URL: [buyList](https://alvaro-j.github.io/buylist-project/)
 
